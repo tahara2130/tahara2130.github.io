@@ -1,0 +1,16 @@
+h1
+{	
+	vertical-align: top;
+	color: #ffffff; 	
+	font-family: "Arial";
+	
+}
+textarea 
+{
+    resize: none;
+}
+#li1
+{
+	display:inline-block;
+	vertical-align:top;
+}
