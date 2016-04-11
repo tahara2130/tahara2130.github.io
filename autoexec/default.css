@@ -11,5 +11,6 @@ textarea
 }
 #li1
 {
-	vertical-align: middle;
+  margin-left: auto ;
+  margin-right: auto ;
 }
