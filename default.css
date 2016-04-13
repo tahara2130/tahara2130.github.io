@@ -3,6 +3,8 @@ h1
 	vertical-align: top;
 	color: #ffffff; 	
 	font-family: "Arial";
+	text-decoration: none; 
+	background-color: none; 
 	
 }
 textarea 
@@ -28,8 +30,8 @@ textarea
 	display:inline-block;
 	vertical-align:top;
 }
-/*#li5
-{
-	display:inline-block;
-	float: left;
-}*/
+.a {
+	text-decoration: none; 
+	background-color: none; 
+	color: #ffffff;
+}
