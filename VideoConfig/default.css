@@ -9,26 +9,12 @@ h1
 }
 textarea 
 {
-    resize: none;
-}
-#li1
-{
-	
-	float: left;
+	resize: none;
 }
 #li2
 {
-	float: right;
-}
-#li3
-{
-	display:inline-block;
-	vertical-align:top;
-}
-#li4
-{
-	display:inline-block;
-	vertical-align:top;
+	margin-left: auto ;
+  	margin-right: auto ;
 }
 .a {
 	text-decoration: none; 
