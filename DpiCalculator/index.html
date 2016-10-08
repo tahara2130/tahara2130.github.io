@@ -1,5 +1,14 @@
 <html><head>
-<script type="text/javascript" src="//code.jquery.com/jquery-2.1.3.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.3.js">
+var Calc = function() {
+    $('#new_sens').val(
+        $('#old_sens').val() / ( $('#new_dpi').val() / $('#old_dpi').val() ) 
+    );
+}
+$('#input input').change(Calc);
+$('#input input').keyup(Calc);
+Calc();
+</script>
 <link rel="stylesheet" type="text/css" href="/css/result-light.css">
 <script type="text/javascript">
 var Calc = function() {
