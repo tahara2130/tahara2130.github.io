@@ -4,29 +4,29 @@
 		<ul class="calc-formlist">
 <li id="calc-varNumA" class="calc-input">
 <label id="jform_varNumA-lbl" for="jform_varNumA" class="">></label>
-<input type="text" name="jform[varNumA]" id="jform_varNumA"  class="inputbox" size="5" value="<?php echo (isset($_POST['submit_calc4644']) && isset($resNumA)) ? $resNumA : $varNumA ?>" />
+<input type="text" name="jform[varNumA]" id="jform_varNumA"  class="inputbox" size="5" value="" />
 </li>
 <li id="calc-varNumB" class="calc-input">
-<label id="jform_varNumB-lbl" for="jform_varNumB" class=""><</label>
-<input type="text" name="jform[varNumB]" id="jform_varNumB"  class="inputbox" size="5" value="<?php echo (isset($_POST['submit_calc4644']) && isset($resNumB)) ? $resNumB : $varNumB ?>" />
+<label id="jform_varNumB-lbl" for="jform_varNumB" class=""></label>
+<input type="text" name="jform[varNumB]" id="jform_varNumB"  class="inputbox" size="5" value="" />
 </li>
 <li id="calc-varNumC" class="calc-input">
 <label id="jform_varNumC-lbl" for="jform_varNumC" class=""></label>
-<input type="text" name="jform[varNumC]" id="jform_varNumC"  class="inputbox" size="5" value="<?php echo (isset($_POST['submit_calc4644']) && isset($resNumC)) ? $resNumC : $varNumC ?>" />
+<input type="text" name="jform[varNumC]" id="jform_varNumC"  class="inputbox" size="5" value="" />
 </li>
 </ul>
 
         </fieldset>
-        <input type="submit" id="calc-button" name="submit_calc4644" value="<?php echo JText::_('MOD_CALC4644_SUBMIT'); ?>" />
+        <input type="submit" id="calc-button" name="submit_calc4644" value="" />
         
     </form>
     <div id="calc-results">
 	<?php if ($form != ""): ?>
 <?php
 $resResult = preg_match('/[0-9]{4}-[0-9]{2}-[0-9]{2}/', $resResult) ?  JFactory::getDate($resResult)->format(JText::_('DATE_FORMAT_LC3')) : $resResult;
+echo JText::sprintf("MOD_CALC4644_RESULT", $resResult); 
+endif; 
 ?>
-<?php echo JText::sprintf("MOD_CALC4644_RESULT", $resResult); ?>
-<?php endif; ?>
     
     </div>
 </div>
