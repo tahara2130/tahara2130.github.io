@@ -1,32 +1,57 @@
-<html lang="en">
-<head>
-  <title>Bootstrap Case</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
+<div id="navigation_container">
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav>
-  
-<div class="container">
-  <h3>Basic Navbar Example</h3>
-  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
+	<ul id="navigation">
+		<li><a id="nav_home" class="blog_selected" style="margin-right: 28px;" href="http://blog.counter-strike.net/es"><span>Blog</span></a></li>
+		<li><a id="nav_updates" href="http://blog.counter-strike.net/es?cat=193"><span>Updates</span></a></li>
+		<!-- resources drop down -->	
+		<li>
+			<a id="nav_resources" href="#"><span>Resources</span></a>
+			<div class="dropdownItems" id="resources_sub_nav" style="display: none; opacity: 1;">
+			  <a id="sub_nav_resources_about" href="http://blog.counter-strike.net/es/index.php/about/"><span>About</span></a><hr>
+			  <a id="sub_nav_resources_faq" href="http://blog.counter-strike.net/es/index.php/facts/"><span>FAQ</span></a><hr>
+			  <a id="sub_nav_resources_learn" href="http://blog.counter-strike.net/es/index.php/resources/"><span>Learn CS:GO</span></a>
+			</div>
+		</li>
+		<!--<li><a id="nav_history"  href="http://blog.counter-strike.net/?page_id=5420"><span>History</span></a></li>
+		<li><a id="nav_events"  href="http://blog.counter-strike.net/?page_id=951"><span>Events</span></a></li>-->
+					<li>
+				<a id="nav_community" href="#"><span>Community</span></a>
+				<div class="dropdownItems" id="community_sub_nav" style="display: none;">
+				  <a id="sub_nav_community_hub" href="http://steamcommunity.com/app/730"><span>CS:GO Hub</span></a><hr>
+				  <a id="sub_nav_community_discussions" href="http://steamcommunity.com/app/730/discussions/"><span>Discussions</span></a><hr>
+				  <a id="sub_nav_community_screenshots" href="http://steamcommunity.com/app/730/screenshots/"><span>Screenshots</span></a><hr>
+				  <a id="sub_nav_community_artwork" href="http://steamcommunity.com/app/730/images/"><span>Artwork</span></a><hr>
+				  <a id="sub_nav_community_videos" href="http://steamcommunity.com/app/730/videos"><span>Videos</span></a><hr>
+				  <a id="sub_nav_community_workshop" href="http://steamcommunity.com/workshop/browse?appid=730&amp;browsesort=trend"><span>Workshop</span></a><hr>
+				  <a id="sub_nav_community_news" href="http://steamcommunity.com/app/730/news"><span>News</span></a><hr>
+				  <a id="sub_nav_community_guides" href="http://steamcommunity.com/app/730/guides/"><span>Guides</span></a>
+				</div>
+			</li>
+				<!-- forums drop down 	
+		<li>
+			<a id="nav_forums" href="#"><span>Forums</span></a>
+			<div class="dropdownItems" id="forum_sub_nav">
+			  <a id="sub_nav_csgo_forums" href="http://forums.steampowered.com/forums/forumdisplay.php?f=1188"><span>CS:GO Forums</span></a><hr />
+			  <a id="sub_nav_css_forums" href="http://forums.steampowered.com/forums/forumdisplay.php?f=37"><span>CSS Forums</span></a><hr />
+			  <a id="sub_nav_cs16_forums" href="http://forums.steampowered.com/forums/forumdisplay.php?f=7"><span>CS 1.6 Forums</span></a>
+			</div>
+		</li>-->
+		
+	</ul> <!-- close navigation div -->
+
+			<div id="external_links" class="">
+			<a id="icon_fb" href="http://www.facebook.com/CounterStrike"><img src="http://blog.counter-strike.net/wp-content/themes/counterstrike_launch/images/icon_fb.png"></a>
+			<a id="icon_twitter" href="http://twitter.com/csgo_dev"><img src="http://blog.counter-strike.net/wp-content/themes/counterstrike_launch/images/icon_twitter.png"></a>
+			<a id="icon_rss" href="http://blog.counter-strike.net/es/?feed=rss"><img src="http://blog.counter-strike.net/wp-content/themes/counterstrike_launch/images/icon_rss.png"></a>
+		</div> 
+
+		
+<form role="search" method="get" id="searchform" action="http://blog.counter-strike.net/es">
+	<div>
+		<input type="text" value="" name="s" id="s" class="search_textbox">
+		<input type="submit" id="searchsubmit" value="" class="search_button">
+	</div>
+</form> 
+	
+
 </div>
-
-</body>
-</html>
