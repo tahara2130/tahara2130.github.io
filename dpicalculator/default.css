@@ -1,0 +1,139 @@
+#calc {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #ddd;
+	padding: 5px;
+	border: 2px solid #CCC;
+	font-size: 1em;
+	color:#666;
+}
+#calc form {
+	border: #ddd solid 2px;
+	-moz-border-radius: 9px; -webkit-border-radius: 9px; border-radius: 9px;
+	background: #eee;	
+	position: relative;
+	padding: 1em 1em 2.5em 0.3em;
+	margin-bottom: 2em;	
+}
+#calc form fieldset {
+	border: none;
+}
+#calc .calc-inputs, #calc .calc-formlist {
+	padding: 0;
+	margin: 0;
+}
+#calc .calc-input {
+	list-style-type: none;
+	padding: 0.5em 0 0.5em 0.5em;
+	text-align: left;	
+	line-height: 1.4em;
+}
+#calc input:focus {
+	border: none;
+}
+#calc .inputbox {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;	
+	border: 1px solid #ddd;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	color: #666;	
+	font-size: 0.9em;	
+	margin-left: 0.5em;
+	padding: 0.2em;
+	padding-right: 0;
+}
+#calc input.inputbox {
+	width: 6em;
+	height: 1.5em;
+}
+#calc .inputbox:hover, #calc .inputbox:active, #calc .inputbox:focus {
+	border: solid 1px #aaa;
+}
+#calc .calc-input>select {
+	width: 8em;
+	border: solid 1px #ddd;
+	color: #666;
+	font-size: 0.9em;
+	height: 2em;		
+}
+#calc .radio {
+	display: inline;
+	padding: 0;
+ 	margin: 0;
+}
+#calc .radio input {
+	margin: 0 0.2em 0 0.8em;
+}
+#calc .calc-input>label {
+	color: #039;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	border-left: #FD7 0.5em solid;
+}
+#calc .calc-input>img {
+	margin-bottom: -0.2em;
+}
+#calc .calc-text {
+	padding: 0.5em 0 0.5em 2em;	
+	text-align: left;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+#calc-button, #calc-rqst-button, #calc-self-button {
+	color: #900;
+	border: none;
+	border-radius: 9px; -moz-border-radius: 9px; -webkit-border-radius: 9px;	
+	background: #ddd;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 1em;
+	padding: 0.5em;
+	position: absolute;
+	bottom: -2em;
+	right: 1em;
+	height: auto;
+}
+#calc a#calc-reset {
+	font-size: 0.9em;
+	color:#666;
+	text-decoration: underline;	
+	position: absolute;
+	bottom: 0.5em;
+	left: 1em;
+}
+#calc a#calc-reset:hover, #calc a#calc-reset:active, #calc a#calc-reset:focus {
+	color: #900;
+	text-decoration: none;
+}
+#calc-results {
+	padding: 1em;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+#calc .calc-result-value {
+	color: #900;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#calc #calc-rqstmail, #calc #calc-selfmail {
+	margin-top: 1em;
+}
+#calc #calc-mailfields {
+	padding: 1em;
+	max-width: 40em;
+	list-style-type: none;
+	overflow: auto;
+}
+#calc #calc-mailfields label {
+	float: left;
+	text-align: right;
+	width: 45%;
+	clear: both;
+}
+#calc #calc-mailfields .inputbox {
+	float: left;
+	width: 45%;
+	margin-bottom: 1em;	
+}
