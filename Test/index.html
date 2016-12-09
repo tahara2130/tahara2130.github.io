@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -5,25 +6,25 @@
 <body>
 
 <div class="w3-container">
-  <h2>Navigation Bars</h2>
-  <p>The <strong>w3-navbar</strong> class creates a horizontal navigation bar. On smaller screens, it will stack (resize the browser window to see the effect).</p>
-  <p>Full-width navigation bars:</p>
-</div>
+  <h2>Hoverable Links</h2>
+  <p>When you mouse over the links inside the nav, their background color will change to grey by default.</p>
+  <p>If you want a different background color on hover, use any of the <strong>w3-hover-color</strong> classes, and if you want a different text color on hover, use any of the
+  <strong>w3-hover-text-color</strong> classes.</p>
 
-<ul class="w3-navbar w3-black">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a></li>
-  <li><a href="#">Link 3</a></li>
-</ul>
+  <p>Hover background color:</p>
+  <ul class="w3-navbar w3-border w3-light-grey">
+    <li><a class="w3-hover-red" href="#">Home</a></li>
+    <li><a class="w3-hover-blue" href="#">Link 1</a></li>
+    <li><a class="w3-hover-green" href="#">Link 2</a></li>
+    <li><a class="w3-hover-teal" href="#">Link 3</a></li>
+  </ul>
 
-<div class="w3-container">
-  <p>Inside a container:</p>
+  <p>Hover text color (You can turn off the default hover effect with the <strong>w3-hover-none</strong> class. This is often used when you only want to highlight text color (and not background color) on hover):</p>
   <ul class="w3-navbar w3-black">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Link 1</a></li>
-    <li><a href="#">Link 2</a></li>
-    <li><a href="#">Link 3</a></li>
+    <li><a class="w3-hover-none w3-text-white" href="#">Home</a></li>
+    <li><a class="w3-hover-none w3-text-grey w3-hover-text-white" href="#">Link 1</a></li>
+    <li><a class="w3-hover-none w3-text-grey w3-hover-text-white" href="#">Link 2</a></li>
+    <li><a class="w3-hover-none w3-text-grey w3-hover-text-white" href="#">Link 3</a></li>
   </ul>
 </div>
 
