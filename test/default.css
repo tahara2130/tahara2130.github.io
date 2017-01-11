@@ -1,5 +1,5 @@
 div#wrapperHeader {
- width:100%;
+ width:1000;
  height;200px; /* height of the background image? */
  background:url(images/header.png) repeat-x 0 0;
  text-align:center;
@@ -12,7 +12,7 @@ div#wrapperHeader div#header {
 }
 
 div#wrapperHeader div#header img {
- width:1204;
+ width:1200;
  height:200;
  margin:0 auto;
 }
