@@ -1,6 +1,6 @@
 div#wrapperHeader {
  width:1000;
- height;200px; /* height of the background image? */
+ height;200px;
  background:url(images/header.png) repeat-x 0 0;
  text-align:center;
 }
