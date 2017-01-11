@@ -2,4 +2,5 @@ div#wrapperHeader div#header img {
  width:1204;
  height:200;
  margin: auto;
+ display: block;
 }
