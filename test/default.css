@@ -4,6 +4,11 @@ div#wrapperHeader div#header img {
  margin: auto;
  display: block;
 }
+
 div#wrapperHeader div#header {
-    background-color: #010812;
+ background-color: #010812;
+}
+
+div#NavBar {
+ background-color: #000000;
 }
