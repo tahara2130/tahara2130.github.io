@@ -12,3 +12,6 @@ div#wrapperHeader div#header {
 div#NavBar {
  background-color: #000000;
 }
+textarea {
+ resize: none; 
+}
