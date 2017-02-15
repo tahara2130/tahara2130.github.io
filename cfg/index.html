@@ -50,9 +50,12 @@ bind "C" "+jumpthrow"
 <div class="inline-div">
   <textarea readonly rows="12" cols="47" class="inline-txtarea">
 // Drop C4
-alias "+dropc4" "use weapon_c4"
-alias "-dropc4" "drop;lastinv"
-bind "4" "+dropc4"
+bind "4" "use weapon_c4;drop"
+-------------------------------------------------------------
+//Damage given in the left corner of the screen
+con_filter_text damage
+con_filter_text_out Player:
+con_filter_enable "2"
   </textarea>
 </div>
 </body>
