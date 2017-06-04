@@ -21,55 +21,5 @@
 <li><a href="Record.cfg">Record CFG</a></li>
 </ul>
 </div>
-<div class="inline-div">
-<textarea readonly rows="12" cols="47" class="inline-txtarea">
-//Binds
-bind v "+voicerecord"
-bind f1 "use weapon_molotov;use weapon_incgrenade;"
-bind f2 "use weapon_hegrenade"
-bind f3 "use weapon_smokegrenade"
-bind f4 "use weapon_flashbang"
--------------------------------------------------------------
-//Custom Binds
-bind f5 "sm_s" //Surf-Bhop server commands
-bind f6 "sm_stuck" //Surf-Bhop server commands
-bind f7 "sm_b" //Surf-Bhop server commands
-</textarea>
-</div>
-<div class="inline-div">
-<textarea readonly rows="12" cols="47" class="inline-txtarea">
-Useful Scripts
-
-// Score Board + Net Graph
-alias "+netscore" "+showscores; net_graphheight 0"
-alias "-netscore" "-showscores; net_graphheight 9999"
-bind "TAB" "+netscore"
--------------------------------------------------------------
-// Jump Throw
-alias "+jumpthrow" "+jump;+attack"
-alias "-jumpthrow" "-jump;-attack"
-bind "C" "+jumpthrow"
-</textarea>
-</div>
-<div class="inline-div">
-<textarea readonly rows="12" cols="47" class="inline-txtarea">
-//Damage given in the left corner of the screen
-con_filter_text "Damage Given"
-con_filter_text_out "Player:"
-con_filter_enable "2"
--------------------------------------------------------------
-bind "shift" "+speed; r_cleardecals;"
--------------------------------------------------------------
-// Drop C4
-bind "4" "use weapon_c4;drop;lastinv"
-</textarea>
-</div>
-<div class="inline-div">
-<textarea readonly rows="5" cols="47" class="inline-txtarea">
-Launch Options
--language custom -novid -high -nojoy -nod3d9ex1
--threads 4 -1024 -768 -fullscreen -console -32bpp
-</textarea>
-</div>
 </body>
 </html>
