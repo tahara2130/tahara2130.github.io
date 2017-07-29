@@ -12,3 +12,7 @@ div#wrapperHeader div#header {
 div#NavBar {
  background-color: #000000;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
