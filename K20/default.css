@@ -1,0 +1,6 @@
+.section_s2 .pt_gmkb_k20#s2 .lighting_block .rainbow img {
+  opacity: 1;
+  background: #096BB6;
+  background: -moz-linear-gradient(left, #0066cc 0%, #ff3399 35%, #ff3300 55%, #ffff33 75%, #66cc33 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #0066cc), color-stop(35%, #ff3399), color-stop(55%, #ff3300), color-stop(75%, #ffff33), color-stop(100%, #66cc33));
+}
