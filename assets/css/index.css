@@ -42,6 +42,16 @@ p {
   height: 100%;
   width: 100%; }
 
+.bg-skeet {
+  background-image: linear-gradient(to right, #37b1da , #c948cd , #cc9283, #cce236);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  height: 100%;
+  width: 100%; }
+
 .center-object {
     left: 50%;
     position: absolute;
@@ -80,7 +90,7 @@ p {
     line-height: 36px;
     margin: .25em;
     padding: 0 2rem;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
 
 .discord {
@@ -104,52 +114,18 @@ p {
 }
 
 .arrow {
-    position: relative;
-    left: 50%;
+  height: 40px;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  width: 40px; 
 }
 
-.container {
-    display: block;
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box; 
-}
-
-#info {
-    margin-top: 2em;
-}
-
-#info .row {
-    background-color: rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin-bottom: 3em;
-    padding: 1em; 
-}
-
-#info .one-half.column {
-    width: 95%; 
-}
-
-#info .container {
-    max-width: 1350px; 
-}
-
-.one-half.column {
-    width: 48%;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
-}
- 
-::-webkit-scrollbar-thumb {
-    background: grey; 
-    border-radius: 10px;
-}
+.background-main {
+  background: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px) brightness(50%);
+  height: 100%;
+  width: 100%; }
