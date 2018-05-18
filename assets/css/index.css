@@ -100,8 +100,15 @@ a {
     background-color: #20A0E1;
 }
 
+canvas {
+    display: block;
+    background: #191919;
+    position: fixed;
+    z-index: -1;
+}
+
 ::-webkit-scrollbar {
-    width: 2.5px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -112,3 +119,4 @@ a {
 ::-webkit-scrollbar-thumb {
     background: grey;
     border-radius: 10px;
+}
