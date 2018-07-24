@@ -28,14 +28,15 @@ a {
     text-decoration: none; 
 }
 
-.bg-skeet {
-  background-image: linear-gradient(to right, rgba(55, 177, 218, .35), rgba(201, 72, 205, .35), rgba(204, 146, 131, .35), rgba(204, 226, 54, .35));
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%; 
+#video {
+    position: fixed;
+    top: -5%;
+    left: 0;
+    z-index: -1000;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .center-object {
@@ -71,7 +72,7 @@ a {
 
 .buttons a {
     border: 0;
-    border-radius: 2px;
+    border-radius: 6px;
     color: #fff;
     display: inline-block;
     font-size: 1.1em;
@@ -102,23 +103,11 @@ a {
     background-color: #20A0E1;
 }
 
-canvas {
-    display: block;
-    background: #191919;
-    position: fixed;
-    z-index: -1;
-}
-
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-::-webkit-scrollbar-track {
-    background: #191919;
-    border-radius: 10px;
-}
- 
-::-webkit-scrollbar-thumb {
-    background: grey;
-    border-radius: 10px;
+.bg {
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0.65);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
