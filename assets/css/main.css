@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Satoshi", "Roboto", sans-serif;
+}
+
+body {
+    margin: 8px;
+    height: 100%;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #222;
+    background: #191919;
+}
+
+html {
+    font-size: 60%;
+}
+
+a, html, body, h1, h2, h4, p {
+    margin: 0;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    letter-spacing: -0.1rem;
+}
+
+.fullscreen {
+    height: 100vh;
+    width: auto;
+    display: block;
+    background: transparent;
+}
+
+.fullscreen .ad {
+    padding: 10px;
+    position: fixed;
+    bottom: 10px; 
+    right: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #FFF;
+    z-index: 11;
+}
+
+.fullscreen .ad a {
+    color: #000;
+}
+
+.fullscreen .background {
+    position: absolute;
+    top: -5%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../img/bg.gif");
+    filter: brightness(0.35) blur(1px) saturate(175%);
+}
+
+.center-object {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-object .me {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.center-object .me .image-title {
+    width: 12em;
+    border-radius: 100%;
+}
+
+.center-object .me .title {
+    width: 156px;
+    height: 48px;
+    margin: 0.25em;
+    filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.4));
+}
+
+.buttons {
+    padding: 1rem 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.buttons a {
+    margin: 0.25em;
+    padding: 0 2rem;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.1em;
+    line-height: 36px;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.box {
+    margin: 50px auto;
+    padding: 40px;
+    width: auto;
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+.box h3 {
+    font-size: 3.3rem;
+    letter-spacing: -0.1rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.info {
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+@media (max-width: 640px), (orientation:portrait) {
+    .info {
+        padding-left: 1em;
+    }
+
+    .center-object .me .image-title {
+        width: 24em;
+        border-radius: 100%;
+    }
+
+    .center-object .me .title {
+        width: calc(156*2px);
+        height: calc(48*2px);
+        margin: 0.25em;
+        filter: drop-shadow(8px 8px 0 rgba(0, 0, 0, 0.4));
+    }
+
+    .fullscreen .background {
+        background-size: cover;
+        filter: brightness(0.40) blur(2px) saturate(175%);
+    }
+
+    .fullscreen .ad {
+    padding: 10px;
+    position: fixed;
+    top: 20px;
+    bottom: calc(100vh - 75px);
+    right: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: #FFF;
+    z-index: 11;
+}
+
+    .fullscreen .ad a {
+        color: #000;
+    }
+
+    .buttons {
+        padding: 1rem 0;
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+
+    .buttons a {
+        margin: .25em;
+        padding: .5em 3rem;
+        height: 72px;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 2.5em;
+        line-height: 36px;
+        border: 0;
+        border-radius: 12px;
+        color: #fff;
+    }
+
+    .box {
+        margin: 50px auto;
+        padding: 45px;
+        width: auto;
+        font-size: 30px;
+        text-align: justify;
+        color: white;
+    }
+
+    .box h3 {
+        font-size: 5rem;
+        letter-spacing: -0.1rem;
+        line-height: 1.3;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1900px) {
+    .fullscreen .background {
+        background-size: cover;
+        filter: brightness(0.40) blur(4px) saturate(175%);
+    }
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #191919;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+/* Button Colors */
+
+.discord {
+    background-color: #7289d9; 
+}
+
+.twitter {
+    background-color: #1da1f2; 
+}
+
+.youtube {
+    background-color: #ff0000; 
+}
+
+.osu {
+    background-color: #E5629C;
+}
+
+.twitch {
+    background-color: #9147ff;
+}
+
+/* Text Colors */
+
+.aqua {
+    color: #7FFFd4;
+}
+
+.kobi {
+    color: #E79AC6;
+}
+
+.lemon {
+    color: #F9FF91;
+}
+
+.ec {
+    font-weight: initial !important;
+}
