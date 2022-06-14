@@ -39,21 +39,6 @@ h1 {
     background: transparent;
 }
 
-.fullscreen .ad {
-    padding: 10px;
-    position: fixed;
-    bottom: 10px; 
-    right: 10px;
-    font-size: 16px;
-    border-radius: 8px;
-    background-color: #FFF;
-    z-index: 11;
-}
-
-.fullscreen .ad a {
-    color: #000;
-}
-
 .fullscreen .background {
     position: absolute;
     top: -5%;
@@ -160,22 +145,6 @@ h1 {
         filter: brightness(0.40) blur(2px) saturate(175%);
     }
 
-    .fullscreen .ad {
-    padding: 10px;
-    position: fixed;
-    top: 20px;
-    bottom: calc(100vh - 75px);
-    right: 20px;
-    font-size: 20px;
-    border-radius: 8px;
-    background-color: #FFF;
-    z-index: 11;
-}
-
-    .fullscreen .ad a {
-        color: #000;
-    }
-
     .buttons {
         padding: 1rem 0;
         height: auto;
@@ -275,6 +244,7 @@ h1 {
     color: #F9FF91;
 }
 
+//Chrome CSS Fix
 .ec {
     font-weight: initial !important;
 }
