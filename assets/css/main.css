@@ -45,8 +45,8 @@ h1 {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("../img/bg.gif");
-    filter: brightness(0.35) blur(1px) saturate(175%);
+    background-image: url("../img/seasonalbg.gif");
+    filter: brightness(0.4) blur(1px) saturate(175%);
 }
 
 .center-object {
@@ -138,7 +138,7 @@ h1 {
 
     .fullscreen .background {
         background-size: cover;
-        filter: brightness(0.40) blur(2px) saturate(175%);
+        filter: brightness(0.4) blur(1px) saturate(175%);
     }
 
     .buttons {
@@ -188,7 +188,7 @@ h1 {
 @media (min-width: 1900px) {
     .fullscreen .background {
         background-size: cover;
-        filter: brightness(0.40) blur(4px) saturate(175%);
+        filter: brightness(0.4) blur(1px) saturate(175%);
     }
 }
 
