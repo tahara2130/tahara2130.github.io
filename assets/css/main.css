@@ -45,7 +45,7 @@ h1 {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("../img/seasonalbg.gif");
+    background-image: url("../img/bg.gif");
     filter: brightness(0.4) blur(1px) saturate(175%);
 }
 
