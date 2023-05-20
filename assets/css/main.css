@@ -19,8 +19,7 @@ html {
     font-size: 60%;
 }
 
-a, html, body, h1, h2, h4, p {
-    margin: 0;
+a, html, body, p {
     font-weight: normal;
     text-decoration: none;
     color: #fff;
